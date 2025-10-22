@@ -14,7 +14,7 @@ while (i <= 15)
 if (i < 10)
 putchar('0' + i);
 else
-putchar('a' + i);
+putchar('a' + (i - 10);
 i++;
 }
 putchar('\n');
