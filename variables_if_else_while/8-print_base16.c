@@ -11,7 +11,10 @@ int i;
 i = 0;
 while (i <= 15)
 {
-putchar('%x', i);
+if (i < 10)
+putchar('0' + i);
+else
+putchar('a' + i);
 i++;
 }
 putchar("\n");
