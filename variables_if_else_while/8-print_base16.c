@@ -11,7 +11,7 @@ int i;
 i = 0;
 while (i <= 15)
 {
-putchar("%x", i);
+putchar('%x', i);
 i++;
 }
 putchar("\n");
