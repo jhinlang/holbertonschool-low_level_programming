@@ -17,6 +17,6 @@ else
 putchar('a' + i);
 i++;
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
