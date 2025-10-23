@@ -5,7 +5,7 @@
  * Return: 1 if uppercase, 0 if lowercase
  *
  */
-int _alpha(int c);
+int _alpha(int c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
