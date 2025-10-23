@@ -15,5 +15,5 @@ while ( i < 10)
 	_putchar(',');
 	_putchar(' ');
 	i++;
-}	
-
+}
+}
