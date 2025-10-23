@@ -5,7 +5,7 @@
  * Return: every minutes of 24H
  *
  */
-void jack_hauer(void)
+void jack_bauer(void)
 {
     int hour, minute;
 
