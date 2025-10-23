@@ -20,5 +20,6 @@ int print_sign(int n)
 	else
 	{
 		return (0);
+		return (0);
 	}
 }
