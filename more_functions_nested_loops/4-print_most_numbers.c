@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_most_numbers - entry point to print all numbers 
+ * print_most_numbers - entry point to print all numbers
  *
  * Return: the numbers
  *
