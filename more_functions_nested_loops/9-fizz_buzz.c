@@ -1,13 +1,5 @@
 #include <stdio.h>
 /**
- * fizz_buzz - entry point
- *
- * Return: numbers and fizz buzz
- *
- */
-#include <stdio.h>
-
-/**
  * main - prints numbers from 1 to 100 with FizzBuzz rules
  *
  *
