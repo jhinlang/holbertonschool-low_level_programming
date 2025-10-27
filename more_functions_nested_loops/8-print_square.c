@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  * print_square - entry point to draw a square
- *
+ * @size: is the size of the square
+ * 
+ * 
  * Return : nothing
  *
  */
