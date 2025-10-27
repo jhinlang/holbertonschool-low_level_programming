@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_numbers - entry point to display numbers from 0 to 9 
+ * print_numbers - entry point to display numbers from 0 to 9
  *
- * return : always 0 
+ * return : always 0
  *
  */
 void print_numbers(void)
