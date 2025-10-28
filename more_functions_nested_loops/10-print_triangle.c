@@ -3,7 +3,7 @@
  * print_triangle - entry point to draw a triangle
  * @size: is the dimensions
  *
- * Return: a draw of a triangle 
+ * Return: a draw of a triangle
  *
  */
 void print_triangle(int size)
