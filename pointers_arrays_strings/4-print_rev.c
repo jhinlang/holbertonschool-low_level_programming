@@ -2,11 +2,10 @@
 #include "main.h"
 #include <string.h>
 /**
- * print_rev - main entry to prints a string in reverse
- * _strlen -  entry to print length of string
- * @s: character to check
- *
- * Return: a string in reverse
+ * _strlen - entry to print the length of string
+ * @s: is the checker variable
+ * 
+ * Return: the length of a string
  */
 int _strlen(char *s)
 {
@@ -20,6 +19,13 @@ s++;
 
 return (len);
 }
+
+/**
+ * print_rev - main entry to prints a string in reverse
+ * @s: character to check
+ *
+ * Return: a string in reverse
+ */
 void print_rev(char *s)
 {
 	int len, i;
