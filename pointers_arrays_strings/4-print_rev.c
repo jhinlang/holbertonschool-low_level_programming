@@ -4,7 +4,7 @@
 /**
  * _strlen - entry to print the length of string
  * @s: is the checker variable
- * 
+ *
  * Return: the length of a string
  */
 int _strlen(char *s)
