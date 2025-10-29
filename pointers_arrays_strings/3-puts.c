@@ -9,6 +9,14 @@
  */
 void _puts(char *str)
 {
-	*str = &str;
-		str = " I do not fear computers. I fear the lack of them - Isaac Asimov";
+    int i = 0;
+
+    while (str[i] != '\0')  // tant qu'on n’a pas atteint la fin
+    {
+        _putchar(str[i]);   // afficher le caractère à la position i
+        i++;                // passer au suivant
+    }
+
+    _putchar('\n'); // retour à la ligne
 }
+
