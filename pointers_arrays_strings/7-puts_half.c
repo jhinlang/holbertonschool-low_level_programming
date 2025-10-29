@@ -6,7 +6,7 @@
  *
  * Return: the half of the string
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	int i, j, k;
 
