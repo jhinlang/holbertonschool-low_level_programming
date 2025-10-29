@@ -28,12 +28,6 @@ int _strlen(char *s)
  */
 void rev_string(char *s)
 {
-/**
- * print_rev - main entry to prints a string in reverse
- * @s: character to check
- *
- * Return: a string in reverse
- */
 	int l = 0;
 	int r = _strlen(s) - 1;
 	char t;
