@@ -11,12 +11,12 @@ void _puts(char *str)
 {
     int i = 0;
 
-    while (str[i] != '\0')  // tant qu'on n’a pas atteint la fin
+    while (str[i] != '\0')
     {
-        _putchar(str[i]);   // afficher le caractère à la position i
-        i++;                // passer au suivant
+        _putchar(str[i]);
+        i++;
     }
 
-    _putchar('\n'); // retour à la ligne
+    _putchar('\n');
 }
 
