@@ -21,17 +21,12 @@ return (len);
 }
 void print_rev(char *s)
 {
-	int l = 0;
-	int r = _strlen(s) -1;
-	char t;
+	int len, i;
 
-	while (l < r)
-	{
-		t = s[l];
-		s[l] = s[r];
-		s[r] = t;
+	len = _strlen(s);
 
-		l++;
-		r--;
-	}
+	for(i = len - 1; i >= 0; i --)
+		_putchar(s[i]);
+
+	_putchar('\n');
 }
