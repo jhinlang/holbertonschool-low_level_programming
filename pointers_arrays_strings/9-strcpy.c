@@ -10,6 +10,9 @@
  */
 char *_strcpy(char *dest, char *src)
 {
+	char dest[1000];
+	int i;
+
 	_strcpy(dest, src);
 	printf("%s", dest);
 	return (0);
