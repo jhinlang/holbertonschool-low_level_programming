@@ -8,7 +8,7 @@
  * Return: the string copied
  *
  */
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	_strcpy(dest, src);
 	printf("%s", dest);
