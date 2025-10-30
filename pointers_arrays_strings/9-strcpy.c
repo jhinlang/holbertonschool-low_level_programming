@@ -10,7 +10,7 @@
  */
 char *strcpy(char *dest, char *src)
 {
-	strcopy(dest, src);
+	_strcpy(dest, src);
 	printf("%s", dest);
 	return (0);
 }
