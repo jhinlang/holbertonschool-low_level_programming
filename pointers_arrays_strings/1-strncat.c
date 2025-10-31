@@ -4,7 +4,7 @@
  * _strncat - entry point to concatene 2 strings in 1
  * @dest: is the destination
  * @src: is the source
- * @n: is the number of variables 
+ * @n: is the number of variables
  *
  * Return: dest
  *
