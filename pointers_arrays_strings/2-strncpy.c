@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 #include "main.h"
 /**
  * _strncpy - entry point to copy string
