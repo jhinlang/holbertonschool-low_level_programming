@@ -5,10 +5,10 @@
  * @s: is the characters to check with accept
  * @accept: is the characters to check with s
  *
- * Return: numbers of common characters 
+ * Return: numbers of common characters
  *
  */
-unsigned int _strspn(char*s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i;
 	unsigned int j;
@@ -18,7 +18,7 @@ unsigned int _strspn(char*s, char *accept)
 		for (j = 0; accept[j] != '\0' && s[i] != accept[j]; j++)
 			;
 
-		if (accept[j] =='\0')
+		if (accept[j] == '\0')
 			break;
 	}
 	return (i);
