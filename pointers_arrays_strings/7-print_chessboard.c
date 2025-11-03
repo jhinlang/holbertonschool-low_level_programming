@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_chessboard - entry point to print a chessboard
- * @a: the table 
+ * @a: the table
  *
  * Return: all the chessboard
  *
@@ -10,7 +10,7 @@
 void print_chessboard(char(*a)[8])
 {
 	unsigned int i;
-	unsigned int j; 
+	unsigned int j;
 
 	for (i = 0; i < 8; i++)
 	{
