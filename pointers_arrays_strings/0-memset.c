@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset - entry point to copy an area memory 
+ * _memset - entry point to copy an area memory
  * @s: is the pointer of destination
  * @b: is the text to copy
  * @n: is the bytes to copy
@@ -9,7 +9,7 @@
  * Return: s
  *
  */
-char * _memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	 unsigned int i;
 
