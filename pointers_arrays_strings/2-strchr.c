@@ -5,7 +5,7 @@
  * @s: is the character in array to compare with c
  * @c: is the character to find
  *
- * Return : s
+ * Return: Null or s + i
  *
  */
 char *_strchr(char *s, char c)
