@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * _strstr - entry point to find the substring needle into the string haystack
- * @haystack - is the string to travel and find needle
- * @needle - is the substring to find
+ * @haystack: is the string to travel and find needle
+ * @needle:  is the substring to find
  *
  * Return: *haystack or null
  *
