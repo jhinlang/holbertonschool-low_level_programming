@@ -1,0 +1,21 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * print_chessboard - entry point to print a chessboard
+ * @a: the table 
+ *
+ * Return: all the chessboard
+ *
+ */
+void print_chessboard(char(*a)[8])
+{
+	unsigned int i;
+	unsigned int j; 
+
+	for (i = 0; i < 8; i++)
+	{
+		for (j = 0; j < 8; j++)
+			putchar(a[i][j];
+		putchar('\n');
+	}
+}
