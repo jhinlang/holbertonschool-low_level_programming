@@ -12,9 +12,12 @@ char *_strchr(char *s, char c)
 {
 	unsigned int i;
 
-	for (i = 0; s[i] != c; i++)
+	while (s[i] != '\0')
 	{
-		return (s + i);
+		if (s[i] == c)
+		{
+			return (s + i);
+			i++;
+		}
+		return (NULL);
 	}
-	return (NULL);
-}
