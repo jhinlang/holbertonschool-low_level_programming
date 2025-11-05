@@ -24,7 +24,7 @@ int _sqrt_help(int n, int x)
 /**
  * _sqrt_recursion - return the natural square root of a number
  * @n: number to find the root square
- * 
+ *
  * Return: natural square root or -1  if no exists
  */
 int _sqrt_recursion(int n)
@@ -33,6 +33,5 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	return(_sqrt_help(n,0));
+	return (_sqrt_help(n, 0));
 }
-
