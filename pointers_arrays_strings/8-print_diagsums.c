@@ -9,7 +9,7 @@
  * Return: the sums of the diagonals
  *
  */
-void print_diasums(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int i;
 	int sum1 = 0;
