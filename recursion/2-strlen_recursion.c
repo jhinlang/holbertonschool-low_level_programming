@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
  * _strlen_recursion - entry point to count the string's length recursively
  * @s: is the string to count
  *
