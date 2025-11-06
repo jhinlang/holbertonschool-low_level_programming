@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * main - entry point to print the name
- *
+ * @argc: check the number of arg
+ * @argv: is the values of a sentence
  * Return: the name
  *
  */
