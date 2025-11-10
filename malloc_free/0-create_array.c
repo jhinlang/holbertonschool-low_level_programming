@@ -8,7 +8,7 @@
  * Return: an array of char
  *
  */
-char *create_array(unsigned int size, charc)
+char *create_array(unsigned int size, char c)
 {
 	char *arr;
 	unsigned int i;
