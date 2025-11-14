@@ -2,6 +2,11 @@
 #define DOG_H
 /**
  * struct dog - is the structure to know the caracteristics of the dawg
+ * @name: name of dawg
+ * @owner: owner of dawg
+ * @age: is the age of the dawg
+ * 
+ * Return: the carac
  */
 struct dog
 {
