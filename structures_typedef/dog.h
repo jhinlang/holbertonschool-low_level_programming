@@ -5,7 +5,7 @@
  * @name: name of dawg
  * @owner: owner of dawg
  * @age: is the age of the dawg
- * 
+ *
  * Return: the carac
  */
 struct dog
