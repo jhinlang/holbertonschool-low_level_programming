@@ -4,13 +4,13 @@
  * @argc: is the count of arguments
  * @argv: is the value of arguments in string
  * Return: the result
- * 
+ *
  */
 int main(int argc, char *argv[])
 {
 	int a, b, result;
 	int (*func)(int, int);
-	
+
 
 	if (argc != 4)
 	{
