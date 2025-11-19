@@ -4,6 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+/**
+ * struct op - is the entry point of the definition of parameters of the operation structure
+ * @op: the operator
+ * @f: the function associated with the operator
+ */
 
 typedef struct op
 {
