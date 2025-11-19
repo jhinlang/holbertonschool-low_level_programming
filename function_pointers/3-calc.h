@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * struct op - is the entry point of the definition of parameters of the operation structure
+ * struct op - is the entry point of the definition of parameters of the opera
  * @op: the operator
  * @f: the function associated with the operator
  */
