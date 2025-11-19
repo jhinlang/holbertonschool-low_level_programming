@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 /**
  * get_op_func - is the entry point to select the correct function to perform
  * @s:is the operator passed as argument

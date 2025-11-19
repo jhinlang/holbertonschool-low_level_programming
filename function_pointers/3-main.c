@@ -1,4 +1,4 @@
-#include "calc.h"
+#include "3-calc.h"
 /**
  * main - a programm that performs simple operations
  * @argc: is the count of arguments
