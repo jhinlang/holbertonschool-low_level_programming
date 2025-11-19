@@ -1,6 +1,8 @@
 #include "calc.h"
 /**
  * main - a programm that performs simple operations
+ * @argc: is the count of arguments
+ * @argv: is the value of arguments in string
  * Return: the result
  * 
  */
@@ -22,7 +24,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (99);
 	}
-	
+
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
