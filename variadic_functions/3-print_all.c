@@ -65,7 +65,7 @@ void print_all(const char * const format, ...)
 	unsigned int i;
 	unsigned int j;
 	char *sep;
-	struct printer 
+	struct printer
 	{
 		char t;
 		void (*f)(va_list);
