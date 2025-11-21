@@ -56,7 +56,7 @@ void print_string(va_list ap)
 /**
  * print_all - prints anything2
  *@format: list of types of arguments passed to the function
- *@struct printer: structure
+ *@struct: structure
  *
  * Return: nothing
  */
