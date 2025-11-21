@@ -1,4 +1,4 @@
-#include "variadic_functions.h"
+#include "variadic.h"
 /**
  * sum_them_all - is the entry point to sum all arguments of a function
  * @n: is the number of arguments
