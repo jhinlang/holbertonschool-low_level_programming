@@ -4,6 +4,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+/**
+ * struct printer - struct for printing different types
+ * @t: type
+ * @f: function associated with the type
+ */
+typedef struct printer
+{
+	char t;
+	void (*f)(va_list);
+} printer_t;
+
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
