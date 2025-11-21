@@ -6,6 +6,7 @@
 void print_char(va_list ap)
 {
 	char c;
+
 	c = va_arg(ap, int);
 
 	printf("%c", c);
@@ -52,16 +53,20 @@ void print_string(va_list ap)
 	}
 	printf("%s", s);
 }
-/** print_all - prints anything
+/**
+ * print_all - prints anything
  *@format: list of types of arguments passed to the function
  *
  * Return: nothing
  */
 void print_all(const char * const format, ...)
 {
-	va_list ap;unsigned int i, j;
+	va_list ap;
+	unsigned int i;
+	unsigned int j;
 	char *sep;
-	struct printer {
+	struct printer 
+	{
 		char t;
 		void (*f)(va_list);
 	} types[] = {
