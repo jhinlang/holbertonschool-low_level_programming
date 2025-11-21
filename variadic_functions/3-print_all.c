@@ -1,5 +1,16 @@
 #include "variadic_functions.h"
 /**
+ * struct printer - struct for printing different types
+ * @t: type
+ * @f: function associated with the type
+ */
+struct printer
+{
+	char t;
+	void (*f)(va_list);
+};
+
+/**
  *print_char - prints a char
  *@ap: va_list
  */
@@ -56,7 +67,6 @@ void print_string(va_list ap)
 /**
  * print_all - prints anything
  *@format: list of types of arguments passed to the function
- *@printer: structure
  *
  * Return: nothing
  */
@@ -66,11 +76,8 @@ void print_all(const char * const format, ...)
 	unsigned int i;
 	unsigned int j;
 	char *sep;
-	struct printer
-	{
-		char t;
-		void (*f)(va_list);
-	} types[] = {
+	
+	struct printer types[] = {
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
