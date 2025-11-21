@@ -54,9 +54,9 @@ void print_string(va_list ap)
 	printf("%s", s);
 }
 /**
- * print_all - prints anything2
+ * print_all - prints anything
  *@format: list of types of arguments passed to the function
- *@struct: structure
+ *@printer: structure
  *
  * Return: nothing
  */
