@@ -8,10 +8,10 @@
  */
 void print_strings( const char *separator, const unsigned int n, ...)
 {
-	unsigned int i; 
+	unsigned int i;
 	char *str;
 
-	va_list list; 
+	va_list list;
 
 	va_start(list, n);
 
@@ -23,7 +23,7 @@ void print_strings( const char *separator, const unsigned int n, ...)
 		{
 			printf("(nil)");
 		}
-		else 
+		else
 		{
 			printf("%s", str);
 		}
