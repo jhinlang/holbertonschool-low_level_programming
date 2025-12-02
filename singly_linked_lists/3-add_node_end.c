@@ -3,7 +3,7 @@
  * add_node_end - adds a new node at the end of a list_t list
  * @head: pointer to the pointer to the first node of  the list
  * @str: string to duplicate and store in the new node
- * 
+ *
  * Return: the address of the new element, or NULL if it failed
  */
 list_t *add_node_end(list_t **head, const char *str)
@@ -18,7 +18,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (new == NULL)
 		return (NULL);
 
-	new ->str = strdup(str);
+	new->str = strdup(str);
 	if (new->str == NULL)
 	{
 		free(new);
@@ -31,7 +31,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	new->len = len;
 	new->next = NULL;
 
-	if (*head ==NULL)
+	if (*head == NULL)
 	{
 		*head = new;
 		return (new);
