@@ -3,12 +3,12 @@
  * add_node - adds a new node at the beginning of a list_t list
  * @head: pointer to the pointer to the first node of the list
  * @str: string to duplicate and store in the new node
- * 
+ *
  * Return: the address of the new element, or NULL if it failed
  */
 
- list_t *add_node(list_t **head, const char *str)
- {
+list_t *add_node(list_t **head, const char *str)
+{
 	list_t *new;
 	unsigned int len = 0;
 
@@ -16,7 +16,7 @@
 	if (new == NULL)
 		return (NULL);
 
-	new ->str = strdup(str);
+	new->str = strdup(str);
 	if (new->str == NULL)
 	{
 		free(new);
@@ -32,5 +32,5 @@
 	*head = new;
 
 	return (new);
- }
+}
 
