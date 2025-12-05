@@ -1,4 +1,5 @@
 #include "main.h"
+#define BUFFER_SIZE 1024
 /**
  * close_fd -closes file descriptors and handles errors
  * @fd: file descriptor to close
@@ -21,7 +22,7 @@ void close_fd(int fd)
  *
  * Return: 0 on success, exit with code on failure
  */
-int main(int argc, char **argv[])
+int main(int argc, char **argv)
 {
 	int fd_from, fd_to;
 	ssize_t r, w;
