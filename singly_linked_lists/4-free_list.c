@@ -11,9 +11,9 @@ void free_list(list_t *head)
 
 	while (head != NULL)
 	{
-		tmp = head; // stocker le noeud actuel
-		head = head->next;// avancer au noeud suivant
-		free(tmp->str);//libérer la chaine  str du noeud
-		free(tmp);//libérer le noeud lui même
+		tmp = head;
+		head = head->next;
+		free(tmp->str);
+		free(tmp);
 	}
 }
